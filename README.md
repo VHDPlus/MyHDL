@@ -13,6 +13,6 @@ Install MyHDL using `pip install myhdl`
 http://www.myhdl.org/docs/examples/ <br/>
 http://docs.myhdl.org/en/stable/manual/rtl.html
 3. After you finished coding, open `Terminal/New Terminal` in the IDE and convert the python file using `python [filename].py` 
-(Check if `Extras/Settings/Detect external` file changes is enabled)
+(Check if `Extras/Settings/Detect external file changes` is enabled)
 4. The file blinky.vhd is created after running the python file. Import other created vhdl files, if you change the code.
 5. Now make sure your file with the `Main` component uses the new updated component and click on `Compile`
