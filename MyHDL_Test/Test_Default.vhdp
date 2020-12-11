@@ -1,0 +1,11 @@
+Main
+(
+    led : OUT STD_LOGIC := '0';
+)
+{
+    NewComponent blinky
+    (
+        clk_i => CLK,
+        led_o => led,
+    );
+}
