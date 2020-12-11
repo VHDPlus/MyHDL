@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>Blinky</Header>
+  <Items xsi:type="ProjectFolder">
+    <Header>Generated</Header>
+  </Items>
+  <Items xsi:type="ProjectFile">
+    <Header>Blinky.py</Header>
+  </Items>
+  <Items xsi:type="ProjectFileVHDL">
+    <Header>blinky.vhd</Header>
+  </Items>
+  <Items xsi:type="ProjectFileVHDL">
+    <Header>pck_myhdl_011.vhd</Header>
+  </Items>
+  <CruviHSExtensions>
+    <string xsi:nil="true" />
+  </CruviHSExtensions>
+  <CruviLSExtensions>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </CruviLSExtensions>
+  <IOVoltage>0</IOVoltage>
+  <UseShield>false</UseShield>
+</ProjectRoot>
