@@ -27,5 +27,5 @@ led_o = Signal(bool(0))
 # Create an instantiation of Blinky.
 top = blinky(clk_i, led_o)
 
-# Output Verilog code for Blinky.
+# Output VHDL code for Blinky.
 top.convert(hdl='VHDL')
