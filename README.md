@@ -16,3 +16,10 @@ http://docs.myhdl.org/en/stable/manual/rtl.html
 (Check if `Extras/Settings/Detect external file changes` is enabled)
 4. The file blinky.vhd is created after running the python file. Import other created vhdl files, if you change the code.
 5. If you use the MyHDL code together with VHDP, make sure your file with the `Main` component uses the new updated component and click on `Compile`
+
+## Language Server
+1. Install the language server using ```pip install 'python-language-server[all]'```
+2. Go to Extras -> Settings -> Languages -> Python
+3. Language server path is pyls.exe for Windows and pyls for Linux
+4. Set the 'Active' checkbox
+5. Deactivate the warnings in the 'Code Errors' window, because MyHDL has some ways to program that the language server doesn't like
