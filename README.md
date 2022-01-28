@@ -2,6 +2,7 @@
 ## Setup
 For Windows make sure you have Python and pip is installed
 - Install Python here: https://www.python.org/downloads/
+- Add the path to python.exe to the environment variables
 - Download https://bootstrap.pypa.io/get-pip.py
 - Install pip using `python get-pip.py`
 
